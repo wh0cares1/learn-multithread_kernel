@@ -43,7 +43,7 @@ void idt_init(){
     }
 
     idt_set(0, idt_zero);
-    idt_set(0x20, int21h);
+    idt_set(0x21, int21h);
 
     // Load IDT
     idt_load(&idtr_descriptor);
