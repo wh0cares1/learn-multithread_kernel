@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "config.h": "c"
+        "config.h": "c",
+        "heap.h": "c",
+        "stddef.h": "c"
     }
 }
